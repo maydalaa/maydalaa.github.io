@@ -1,0 +1,374 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mt-70{
+    margin-top: 70px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+
+.d-flex{
+    display: flex;
+}
+.flex-dir-row{
+    flex-direction: row;
+}
+.flex-dir-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-dir-column{
+    flex-direction: column;
+}
+.flex-dir-column-reverse{
+    flex-direction: column-reverse;
+}
+.flex-jus-center{
+    justify-content: center;
+}
+.flex-ali-center{
+    align-items: center;
+}
+.content-w-90{
+    width: 90%;
+}
+
+
+
+@font-face {
+    font-family: 'Dana-Regular';
+    src: url(../fonts/Dana-Regular.ttf);
+}
+@font-face {
+    font-family: 'Dana-Bold';
+    src: url(../fonts/Dana-Bold.ttf);
+}
+@font-face {
+    font-family: 'Concept-Bold';
+    src: url(../fonts/Concept-Bold.ttf);
+}
+@font-face {
+    font-family: 'Concept-Medium';
+    src: url(../fonts/Concept-Medium.ttf);
+}
+body{
+    font-family: 'Dana-Regular' , sans-serif;
+}
+
+/* Header */
+.bg-header{
+    background-image: url(../images/IMG_3039-rotate.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 80vh;
+    background-blend-mode: multiply;
+    background-color: #5f597ab0;
+    /* background: linear-gradient(0deg,#47474771,#4d4c4c63) , url(../images/IMG_3039-rotate.JPG)  center ; */
+}
+
+header{
+    padding: 50px 0 100px;
+}
+
+
+/* nav-bar */
+
+.nav-bar-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff9a;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 270px;
+    border: 7px solid transparent;
+    padding: 0px 4px;
+}
+.nav-bar-menu li {
+    padding: 9px 1px;
+    background-color: #44318d;
+    background-clip: padding-box;
+    border-radius: 20px;
+}
+.nav-bar-menu li a{
+    color: #f1f0f0;
+    font-weight: 600;
+    padding: 11px 10px;
+}
+
+/* bottom nav-bar */
+.introduction-exhibition{
+    text-align: center;
+}
+
+.introduction-exhibition-img img{
+    width:150px;
+    filter: brightness(1) invert(1);
+
+}
+
+.introduction-exhibition-text h2:first-child{
+    font-size: 6vw;
+    color: #fff;
+    padding: 10px 0;
+}
+.introduction-exhibition-text h2:last-child{
+    font-size: 3.8vw;
+    color: #fff;
+    font-family: 'Concept-Bold';
+}
+
+
+
+
+/* Profile */
+
+.bg-profile{
+    background: linear-gradient(to top, rgba(179, 203, 253, 0.671) , #44318d 60% ),url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* #7964cfa4 */
+}
+#profile{
+    position: relative;
+    min-height: 100vh;
+    padding: 20px 0 40px;
+    overflow-x: hidden;
+}
+
+
+/* Profile-name */
+.names{
+    font-family: 'Concept-Bold';
+    font-weight: 900;
+    text-align: center;
+    /* font-style: italic; */
+    /* text-shadow: 2px 2px 1px #adadad,2px 2px 1px #adadad ; */
+    text-shadow: 2px 2px 1px #777,2px 2px 1px #777 ;
+    font-size: 16px;
+}
+.name-brand{
+    font-size: 31px;
+}
+.name-person{
+    line-height: 40px;
+    font-size: 29px;
+} 
+.name-job{
+    color: #2a1b3d;
+    font-size: 18px;
+    line-height: 30px;
+    direction:ltr;
+    text-shadow: 0 0 0 ;
+    
+    
+}
+.auto-type{
+    color: #2a1b3d;
+}
+
+.typed-cursor {
+    color: #999;
+}
+
+
+/* profile-pictures */
+.profile-pictures{
+    position: relative;
+}
+.img-mandala{
+    animation: rotate-mandala 70s linear infinite;
+    opacity: .4;
+    /* filter: brightness(0) invert(1); */
+    scale: .9;
+}
+@keyframes rotate-mandala {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.img-person{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    border-radius: 50%;
+    scale: .4;
+    filter: grayscale(90%);
+    border: 2px solid #999;
+
+}
+
+
+/* profile-description */
+.profile-desc{
+    box-shadow: inset 0 0 2px #f9f9f9,0 0 2px #f9f9f9;
+    border-radius: 25px;
+    padding: 10px;
+    background: linear-gradient( 40deg , #493583c4  , #2a1b3d );
+    /* background: #2a1b3d; */
+    margin: 0 5px;
+}
+.profile-desc-title{
+    font-family: "Dana-Bold";
+    font-size: 21px;
+    padding: 7px 0;
+    color: #bdc9cc;
+
+}
+.profile-desc-text{
+    line-height: 26px;
+    color: #b7c0c2;
+}
+
+
+
+
+/* Swiper */
+
+.bg-more-images{
+    background-color: rgb(154, 183, 194);
+    padding: 40px 0 ;
+
+}
+.more-images{
+    position: relative;
+    padding: 20px 0 60px;
+}
+
+.title-more-images{
+    color: #000; 
+    text-align: center;
+    font-size: 28px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.part-image-main img {
+    opacity: .2;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.swiper-slide-active img {
+    opacity: 1;
+}
+
+
+
+
+
+
+/* Descriptions of works of art */
+.bg-descriptions-works-art{
+    background-color: #2a1b3d;
+}
+.descriptions-works-art{
+    padding: 40px 0;
+}
+
+.title-works-art{
+    text-align: center;
+    font-size: 30px;
+}
+
+.specifications-works-art{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    align-items: flex-end;
+}
+.specifications-works-art-title {
+    color: #6c5ea8;
+    font-size: 24px;
+}
+.specifications-works-art-text{
+    text-align: justify;
+}
+
+.about-artwork h3{
+    color: #6c5ea8;
+    font-size: 24px;
+}
+.about-artwork p{
+    margin-top: 14px;
+    text-align: justify;
+    line-height: 27px;
+}
