@@ -95,7 +95,6 @@ a{
 }
 
 
-
 @font-face {
     font-family: 'Dana-Regular';
     src: url(../fonts/Dana-Regular.ttf);
@@ -112,29 +111,40 @@ a{
     font-family: 'Concept-Medium';
     src: url(../fonts/Concept-Medium.ttf);
 }
+
 body{
     font-family: 'Dana-Regular' , sans-serif;
 }
+::-webkit-scrollbar {
+    height: 19px;
+    width: 19px;
+    background: #aec5cf;
+  }
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(-120deg ,#241736fa , #7a6e88fa);
+    -webkit-border-radius: .9ex;
+    border: 2px solid #aec5cf;
+}
+::-webkit-scrollbar-corner {
+    background: linear-gradient(-120deg ,#241736fa , #7a6e88fa);
+}
+
 
 /* Header */
 .bg-header{
-    background-image: url(../images/IMG_3039-rotate.JPG);
+    background-image: url(../images/IMG_3039-rotate2.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 80vh;
     background-blend-mode: multiply;
     background-color: #5f597ab0;
-    /* background: linear-gradient(0deg,#47474771,#4d4c4c63) , url(../images/IMG_3039-rotate.JPG)  center ; */
 }
-
 header{
     padding: 50px 0 100px;
 }
 
-
 /* nav-bar */
-
 .nav-bar-menu{
     display: flex;
     justify-content: space-between;
@@ -166,25 +176,22 @@ header{
 .introduction-exhibition-img img{
     width:150px;
     filter: brightness(1) invert(1);
-
 }
 
-.introduction-exhibition-text h2:first-child{
-    font-size: 6vw;
+.introduction-exhibition-text h1{
+    font-size: 5.8vw;
     color: #fff;
     padding: 10px 0;
 }
-.introduction-exhibition-text h2:last-child{
-    font-size: 3.8vw;
+.introduction-exhibition-text h2{
+    font-size: 3.5vw;
     color: #fff;
     font-family: 'Concept-Bold';
 }
 
 
 
-
 /* Profile */
-
 .bg-profile{
     background: linear-gradient(to top, rgba(179, 203, 253, 0.671) , #44318d 60% ),url(../images/bg.jpg);
     background-size: cover;
@@ -205,8 +212,6 @@ header{
     font-family: 'Concept-Bold';
     font-weight: 900;
     text-align: center;
-    /* font-style: italic; */
-    /* text-shadow: 2px 2px 1px #adadad,2px 2px 1px #adadad ; */
     text-shadow: 2px 2px 1px #777,2px 2px 1px #777 ;
     font-size: 16px;
 }
@@ -223,8 +228,6 @@ header{
     line-height: 30px;
     direction:ltr;
     text-shadow: 0 0 0 ;
-    
-    
 }
 .auto-type{
     color: #2a1b3d;
@@ -256,11 +259,11 @@ header{
 }
 .img-person{
     position: absolute;
-    top: 0;
+    top: -2%;
     left: 0;
     z-index: 5;
     border-radius: 50%;
-    scale: .4;
+    scale: .43;
     filter: grayscale(90%);
     border: 2px solid #999;
 
@@ -287,8 +290,6 @@ header{
     line-height: 26px;
     color: #b7c0c2;
 }
-
-
 
 
 /* Swiper */
@@ -333,9 +334,6 @@ header{
 
 
 
-
-
-
 /* Descriptions of works of art */
 .bg-descriptions-works-art{
     background-color: #2a1b3d;
@@ -372,3 +370,20 @@ header{
     text-align: justify;
     line-height: 27px;
 }
+
+
+
+/* footer */
+.bg-footer{
+    background: linear-gradient(to top, rgb(142, 131, 189)  , #4f3f8f  );
+    height: 45vh;
+    
+}
+
+
+
+
+
+
+
+  

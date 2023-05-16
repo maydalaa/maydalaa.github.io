@@ -70,7 +70,7 @@
         scale: 1;
     }
     .profile-pictures .img-person{
-        scale: .43;
+        scale: .49;
     }
 
     /* Swiper */
@@ -157,6 +157,21 @@
         width: 310px;
         height: 310px;
     } 
+
+    /* specifications-works-art-img => magnifying Board Art */
+    .specifications-works-art-img {
+    background-image: url(../images/IMG_3049-1-edit.JPG);
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+    }
+    .specifications-works-art-img img:hover {
+    opacity: 0;
+    }
+    .specifications-works-art-img img {
+    transition: opacity .5s;
+    }
 }
 
 /* xl */
@@ -195,10 +210,10 @@
     .col-xxl-11{ width: 91.66%; }
     .col-xxl-12{ width: 100%; }
 
-    .introduction-exhibition .introduction-exhibition-text h2:first-child{
-        font-size: 84px;
+    .introduction-exhibition .introduction-exhibition-text h1{
+        font-size: 80px;
     }
-    .introduction-exhibition .introduction-exhibition-text h2:last-child{
-        font-size: 54px;
+    .introduction-exhibition .introduction-exhibition-text h2{
+        font-size: 51px;
     }
 }
