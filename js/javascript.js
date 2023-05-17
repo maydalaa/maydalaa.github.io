@@ -72,7 +72,7 @@ let swiper = new Swiper(".swiper", {
   },
 });
 
-// // Image Zoom
+// Image Zoom
 let magnifyingBoard = document.querySelector(".specifications-works-art-img");
 magnifyingBoard.addEventListener("mousemove", function zoom(e) {
   let zoomer = e.currentTarget;
@@ -82,3 +82,16 @@ magnifyingBoard.addEventListener("mousemove", function zoom(e) {
   y = (offsetY / zoomer.offsetHeight) * 100;
   zoomer.style.backgroundPosition = x + "% " + y + "%";
 });
+
+// loader
+// document.onreadystatechange = function () {
+//   if (document.readyState !== "complete") {
+//     document.querySelector("body").style.visibility = "hidden";
+//     document.querySelector("#loader-gif").style.visibility = "visible";
+//     document.querySelector(".loader-container").classList.remove("fade-out");
+//   } else {
+//     document.querySelector("#loader-gif").style.display = "none";
+//     document.querySelector("body").style.visibility = "visible";
+//     document.querySelector(".loader-container").classList.add("fade-out");
+//   }
+// };

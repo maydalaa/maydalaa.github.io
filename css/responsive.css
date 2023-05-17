@@ -119,6 +119,14 @@
         width: 320px;
         height: 320px;
     } 
+
+    /* Footer */
+    footer .logo-footer{
+        display: block;
+    }
+    .section-info-footer{
+        margin-left: 35px;
+    }
     
 }
 
@@ -171,6 +179,7 @@
     }
     .specifications-works-art-img img {
     transition: opacity .5s;
+    display: block;
     }
 }
 
