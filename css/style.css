@@ -132,10 +132,10 @@ body{
 
 /* Header */
 .bg-header{
-    background-image: url(../images/IMG_3039-rotate2.JPG);
+    background-image: url(../images/IMG-3039-rotate2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     min-height: 80vh;
     background-blend-mode: multiply;
     background-color: #5f597ab0;
