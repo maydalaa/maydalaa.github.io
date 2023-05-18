@@ -66,11 +66,17 @@
     #start-profile .names{
         text-align: left;
     }
-    .profile-pictures .img-mandala{
-        scale: 1;
-    }
-    .profile-pictures .img-person{
-        scale: .49;
+
+    /* Button */
+    .btn-contact-us .btn{
+        border: 2px solid #6a32aa;
+        border-radius: 16px;
+        padding: 8px 60px;
+        transition: all .4s;
+        font-size: 18px;
+        background-color: #6a32aa;
+        color: #ccc;
+
     }
 
     /* Swiper */
@@ -108,7 +114,7 @@
         padding: 20px 40px;
     }
     header .nav-bar-menu{       
-        width: 330px;
+        width: 340px;
     }
     header .nav-bar-menu li a{
         padding: 11px 18px;
@@ -145,6 +151,20 @@
     .col-lg-11{ width: 91.66%; }
     .col-lg-12{ width: 100%; }
 
+    /* scroll broswer */
+    ::-webkit-scrollbar {
+        height: 19px;
+        width: 19px;
+        background: #aec5cf;
+      }
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(-120deg ,#241736fa , #7a6e88fa);
+        -webkit-border-radius: .9ex;
+        border: 2px solid #aec5cf;
+    }
+    ::-webkit-scrollbar-corner {
+        background: linear-gradient(-120deg ,#241736fa , #7a6e88fa);
+    }
     
     .names .name-brand{
         font-size: 37px;
@@ -158,6 +178,21 @@
     .names .name-job{
         font-size: 20px;
         letter-spacing: 1px;
+    }
+
+    /* Button */
+    .btn-contact-us .btn{
+        border: 2px solid #6a32aa;
+        border-radius: 16px;
+        background-color: transparent;
+        padding: 8px 70px;
+        color: #875eb6;
+        transition: all .4s;
+        font-size: 18px;
+    }
+    .btn-contact-us .btn:hover{
+        background-color: #6a32aa;
+        color: #ccc;
     }
 
     /* Swiper */
@@ -181,6 +216,8 @@
     transition: opacity .5s;
     display: block;
     }
+
+    
 }
 
 /* xl */

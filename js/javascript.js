@@ -84,14 +84,14 @@ magnifyingBoard.addEventListener("mousemove", function zoom(e) {
 });
 
 // loader
-// document.onreadystatechange = function () {
-//   if (document.readyState !== "complete") {
-//     document.querySelector("body").style.visibility = "hidden";
-//     document.querySelector("#loader-gif").style.visibility = "visible";
-//     document.querySelector(".loader-container").classList.remove("fade-out");
-//   } else {
-//     document.querySelector("#loader-gif").style.display = "none";
-//     document.querySelector("body").style.visibility = "visible";
-//     document.querySelector(".loader-container").classList.add("fade-out");
-//   }
-// };
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+    document.querySelector("body").style.visibility = "hidden";
+    document.querySelector("#loader-gif").style.visibility = "visible";
+    document.querySelector(".loader-container").classList.remove("fade-out");
+  } else {
+    document.querySelector("#loader-gif").style.display = "none";
+    document.querySelector("body").style.visibility = "visible";
+    document.querySelector(".loader-container").classList.add("fade-out");
+  }
+};
