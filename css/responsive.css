@@ -53,6 +53,11 @@
     .col-sm-10{ width: 81.33%; }
     .col-sm-11{ width: 91.66%; }
     .col-sm-12{ width: 100%; }
+
+    /* size loader */
+    body .loader-container img{
+        width: 30%;
+    }
     
     .container #profile{
         padding: 20px;
@@ -110,6 +115,11 @@
     .col-md-11{ width: 91.66%; }
     .col-md-12{ width: 100%; }
 
+    /* size loader */
+    body .loader-container img{
+        width: 25%;
+    }
+
     .container #profile{
         padding: 20px 40px;
     }
@@ -150,6 +160,11 @@
     .col-lg-10{ width: 81.33%; }
     .col-lg-11{ width: 91.66%; }
     .col-lg-12{ width: 100%; }
+
+    /* size loader */
+    body .loader-container img{
+        width: 20%;
+    }
 
     /* scroll broswer */
     ::-webkit-scrollbar {
