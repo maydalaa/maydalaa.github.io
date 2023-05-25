@@ -251,17 +251,16 @@ header{
 .profile-desc{
     box-shadow: inset 0 0 2px #f9f9f9,0 0 2px #f9f9f9;
     border-radius: 25px;
-    padding: 10px;
+    padding: 15px;
     background: linear-gradient( 40deg , #493583c4  , #2a1b3d );
     margin: 0 5px;
 }
-.profile-desc-title{
+/* .profile-desc-title{
     font-family: "Dana-Bold";
     font-size: 21px;
     padding: 7px 0;
     color: #bdc9cc;
-
-}
+} */
 .profile-desc strong{
     color: #b7c0c2;
     font-size: 19px;
