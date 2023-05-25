@@ -345,13 +345,14 @@ header{
 .title-works-art{
     text-align: center;
     font-size: 30px;
-
 }
 
 .specifications-works-art{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+}
+.specifications-works-art-desc{
+    text-align: right;
 }
 .specifications-works-art-title {
     color: #6c5ea8;
