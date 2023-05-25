@@ -104,6 +104,10 @@
         padding-left: 30px;
     }
     
+    /* Footer */
+    .section-info-footer .icons-footer li{
+        font-size: 35px;
+    }
 }
 
 /* md */
@@ -148,12 +152,10 @@
     } 
 
     /* Footer */
-    footer .logo-footer{
-        display: block;
+    .section-info-footer .icons-footer li{
+        font-size: 40px;
     }
-    .section-info-footer{
-        margin-left: 35px;
-    }
+    
     
 }
 

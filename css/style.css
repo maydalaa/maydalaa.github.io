@@ -384,32 +384,28 @@ header{
 
 footer{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     padding: 25px 0;
 }
 
 .section-info-footer {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    
 }
-.section-info-footer h2{
+#footer h2{
     font-size: 40px;
     color: #ccc;
-}
-.section-info-footer p{
-    font-size: 22px;
     text-align: center;
-    margin: 22px 0;
-    color: #ccc;
 }
 
 .icons-footer{
     display: flex;
 }
 .icons-footer li{
-    font-size: 35px;
+    font-size: 30px;
     padding: 0 13px;
 }
 .icons-footer li i{
@@ -417,7 +413,8 @@ footer{
 }
 
 .logo-footer{
-    display: none;
+    margin-right: 15px;
+    
 }
 .logo-footer img{
     filter:brightness(1) invert(.8);
