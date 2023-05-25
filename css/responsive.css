@@ -84,6 +84,8 @@
 
     }
 
+    
+
     /* Swiper */
     .swiper-slide .part-image-main img {
         width: 400px;
@@ -95,9 +97,14 @@
         flex-direction: row;
         align-items: flex-start;
     }
+    .specifications-works-art .specifications-works-art-title {
+        padding-top: 20px;
+    }
+    
     .specifications-works-art-desc{
         padding-left: 30px;
     }
+    
 }
 
 /* md */
@@ -129,6 +136,11 @@
     header .nav-bar-menu li a{
         padding: 11px 18px;
     }
+
+    .specifications-works-art .specifications-works-art-text p{
+        font-size: 21px;
+    }
+    
     
     /* Swiper */
     .swiper-slide .part-image-main img {
